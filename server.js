@@ -16,7 +16,7 @@ app.use('/partner', partnerRouter);
 app.use('/promotions', promotionsRouter);
 
 
-//----------------------------
+//--------------------------------------------
 
 app.use(express.static(__dirname + '/public'));
 
